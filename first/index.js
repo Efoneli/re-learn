@@ -31,7 +31,7 @@
 //     likes: 'chicken and chips'
 // }
 
-// for (let key in person) 
+// for (let key in person)  
 // console.log(key, person[key])
 
 
@@ -61,4 +61,47 @@
 //     return (width > height)
 // }
 
+// let own = fizzbuzz(15)
+// console.log(own)
 
+// function fizzbuzz(input){
+//     if (typeof input !== 'number') {
+//         return NaN
+//     }else if ((input % 5 === 0) && (input % 3 === 0) ) {
+//         return 'FizzBuzz'
+//     }else if (input % 3 === 0 ) {
+//         return 'Fizz'
+//     }else if (input % 5 === 0 ) {
+//         return 'Buzz'
+//     }else if (input % 5 !== 0 && input % 3 !== 0 ) {
+//         return input
+//     }
+// }
+
+// checkSpeed();
+
+// function checkSpeed(speed){
+//     const speedLimit = 70;
+
+//     if (speed < speedLimit ) {
+//         return 'OK'
+//     }else if ( speed - speedLimit )
+// }
+
+
+// showNumbers(10)
+
+// function showNumbers(limit) {
+//     for (let i = 0; i <= 10; i++ ) {
+//         if (i % 2 === 0) {
+//             console.log(i, 'EVEN')
+//         }else console.log(i, 'ODD')
+//     }
+// }
+
+
+const arr = 
+
+function CountTruthy(arr) {
+    
+}
