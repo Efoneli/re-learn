@@ -1,18 +1,18 @@
-console.log('Running')
+let radius = 1
+let x = 1
+let y = 1
 
-showStars(5)
-
-function showStars(rows) {
-    for (let row = 2; row <= rows; row++) {
-        let pattern = ''
-        for (let i = 0; i < row; i++) 
-            pattern += '*';
-        console.log(pattern);
+function createCircle(radius) {
+    return {
+        radius,
+        draw() {
+            console.log('drawing')
         }
     }
+}
 
-    showPrimes(20)
+const circle = createCircle(3)
+console.log(circle)
 
-    function showPrimes(limit) {
-        
-    }
+const circle2 = createCircle(2)
+console.log(circle.draw())
